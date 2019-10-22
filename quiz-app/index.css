@@ -1,0 +1,30 @@
+* {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  background-color: #FFFFFF;
+}
+
+header {
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 1000px;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.box .buttonBlock {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.questionBox ul {
+  list-style: none;
+}

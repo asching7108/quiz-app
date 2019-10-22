@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Web Developer Quiz</h1>
+      <div class="progressAndScore">
+        <span class="progress">Questions: 1/10</span>
+        <span class="score">Score: 0/10</span>
+      </div>
+    </header>
+    <main role="main">
+      <section class="startBox box">
+        <div class="contentBlock block">
+          <h2>How much do you know about HTML, CSS and JS?</h2>
+          <p>Take the quiz to find out!</p>
+        </div>
+        <div class="buttonBlock block">
+          <button type="button" class="startButton button">START</button>
+        </div> 
+      </section>
+      <section class="questionBox box">
+        <label>In HTML, colors can be specified using HSL value, which means</label>
+        <ul>
+          <li><input type="radio" id="option1" name="option">High, Static, Low</input></li>
+          <li><input type="radio" id="option2" name="option">High, Stable, Low</input></li>
+          <li><input type="radio" id="option3" name="option">HTML, Semantics, Language</input></li>
+          <li><input type="radio" id="option4" name="option">Hue, Saturation, Light</input></li>
+        </ul>
+        <div class="buttonBlock block">
+          <button type="submit" class="submitButton button">SUBMIT</button>
+        </div>
+      </section>
+            <section class="answerBox box">
+        <label>In HTML, colors can be specified using HSL value, which means</label>
+        <ul>
+          <li><input type="radio" id="option1" name="option">High, Static, Low</input></li>
+          <li><input type="radio" id="option2" name="option">High, Stable, Low</input></li>
+          <li><input type="radio" id="option3" name="option" checked>HTML, Semantics, Language</input></li>
+          <li><input type="radio" id="option4" name="option">Hue, Saturation, Light</input></li>
+        </ul>
+        <div class="answer">
+          Too bad! The answer is: "Hue, Saturation, Light"
+        </div>
+        <div class="buttonBlock block">
+          <button type="button" class="submitButton button">NEXT</button>
+        </div>
+      </section>
+      <section class="scoreBox box">
+        <div class="contentBlock block">
+          <h2>Excellent!</h2>
+          <p>You scored 12 out of 15!</p>
+        </div>
+        <div class="buttonBlock block">
+          <button type="button" class="startButton button">Take the Quiz Again</button>
+        </div> 
+      </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
