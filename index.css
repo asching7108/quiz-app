@@ -1,30 +1,99 @@
 * {
   font-family: "Roboto", sans-serif;
-  color: black;
-  background-color: #FFFFFF;
+  font-size: 16px;
+  color: #000000;
+  margin: 0;
+}
+
+body {
+  background-color: #C2E0FF;
 }
 
 header {
   text-align: center;
 }
 
-.box {
+h1 {
+  margin: 20px;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.progressAndScore {
+  display: flex;
+  justify-content: center;
+}
+
+.psItem {
+  color: grey;
+  margin: 0 10px;
+}
+
+.box, form {
+  background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
-  margin: 10px auto;
-  padding: 10px;
+  justify-content: space-between;
+  min-height: 240px;
+}
+
+.box {
+  background-color: #FFFFFF;
+  margin: 20px auto;
+  padding: 28px;
   width: 80%;
-  max-width: 1000px;
-  justify-content: center;
-  border: 1px solid black;
-  border-radius: 6px;
+  max-width: 800px;
+  box-shadow: 5px 5px 5px lightgrey;
+  border-radius: 16px;
 }
 
-.box .buttonBlock {
+h2 {
+  margin-top: 60px;
   text-align: center;
-  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 400;
 }
 
-.questionBox ul {
+.question {
+  font-size: 18px;
+  font-weight: 350;
+}
+
+li {
+  margin-bottom: 10px;
   list-style: none;
 }
+
+input[name=option] {
+  margin-right: 10px;
+}
+
+.answer {
+  color: #248A3D;
+  margin: 0 auto;
+  height: 24px;
+}
+
+.wrong {
+  color: #C90F00;
+}
+
+button {
+  margin: 0 auto;
+  bottom: 10px;
+  width: 200px;
+  height: 36px;
+  background-color: #007AFF;
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+
+button:hover {
+  border: double;
+}
+
+button:active {
+  background-color: #FFFFFF;
+  color: #007AFF;
+}
+
