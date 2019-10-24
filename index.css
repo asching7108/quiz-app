@@ -25,7 +25,7 @@ h1 {
 }
 
 .psItem {
-  color: grey;
+  color: #636366;
   margin: 0 10px;
 }
 
@@ -43,7 +43,7 @@ h1 {
   padding: 28px;
   width: 80%;
   max-width: 800px;
-  box-shadow: 5px 5px 5px lightgrey;
+  box-shadow: 5px 5px 5px #C7C7CC;
   border-radius: 16px;
 }
 
@@ -64,8 +64,9 @@ li {
   list-style: none;
 }
 
-input[name=option] {
-  margin-right: 10px;
+input[name=option] + label {
+  color: #636366;
+  margin-left: 10px;
 }
 
 .answer {
@@ -97,3 +98,7 @@ button:active {
   color: #007AFF;
 }
 
+input[name=option]:checked + label {
+  color: #000000;
+  font-weight: 400;
+}

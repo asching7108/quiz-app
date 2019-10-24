@@ -43,7 +43,7 @@ function addQuestionContent() {
   $('.js-question').html(currentQuiz.question);
   $('.js-questionView').find('.js-options').html('');
   for (let i = 0; i < 4; i++) {
-    $('.js-questionView').find('.js-options').append(`<li><input type="radio" id="option${i + 1} " name="option"value="${currentQuiz.options[i]}" required>${currentQuiz.options[i]}</input></li>`);
+    $('.js-questionView').find('.js-options').append(`<li><input type="radio" id="option${i + 1}" name="option"value="${currentQuiz.options[i]}" required><label for="option${i + 1}">${currentQuiz.options[i]}</label></li>`);
   }
 }
 
