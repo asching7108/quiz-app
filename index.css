@@ -90,12 +90,17 @@ button {
 }
 
 button:hover {
+  cursor: pointer;
   border: double;
 }
 
 button:active {
   background-color: #FFFFFF;
   color: #007AFF;
+}
+
+input[name=option]:hover {
+  cursor: pointer;
 }
 
 input[name=option]:checked + label {
